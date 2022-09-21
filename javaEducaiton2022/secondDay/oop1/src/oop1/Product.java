@@ -1,14 +1,56 @@
 package oop1;
 
-public class Product {//PascalCase class isimlendirme
+public class Product {// PascalCase class isimlendirme
 
-    //ürün tanımlayacak ortam hazırlanıyor
-    //field  değişkenler camelCase yazıyoruz.
-    String name;
-    double unitPrice;
-    double discount;
-    String imageUrl;
-    int unitInStock;
+    // ürün tanımlayacak ortam hazırlanıyor
+    // field değişkenler camelCase yazıyoruz.
+    private String name;
+    private double unitPrice;
+    private double discount;
+    private String imageUrl;
+    private int unitInStock;
 
-    
+    // sağ tık source getter and setter hepsini işaretle
+    //get--> oku; set--> yaz
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getUnitPrice() {
+        return unitPrice;
+    }
+
+    public void setUnitPrice(double unitPrice) {
+        this.unitPrice = unitPrice;
+    }
+
+    public double getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(double discount) {
+        this.discount = discount;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public int getUnitInStock() {
+        return unitInStock;
+    }
+
+    public void setUnitInStock(int unitInStock) {
+        this.unitInStock = unitInStock;
+    }
+
 }
