@@ -3,6 +3,8 @@ package oopIntro;
 public class Product {
     
     int id;
+    
+
     String name;
     double unitPrice;
     String detail;
@@ -28,6 +30,9 @@ public class Product {
 
     //metod burada  da yazabiliriz fakat 
     //classlar ikiye ayrılır 1 özellik tutan class 2 metod tutan class 
+
+    //id üstünde sağ tıkla source constructer tıkla hangileri eklenecekse o fieldları seç
+   
     
     
 }
