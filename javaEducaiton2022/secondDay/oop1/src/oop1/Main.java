@@ -2,7 +2,7 @@ package oop1;
 
 public class Main {
     public static void main(String[] args) {
-        String mesaj = "Vade oranı";
+        //String mesaj = "Vade oranı";
 
         Product product1 = new Product();
         // set value
@@ -64,7 +64,12 @@ public class Main {
         corporateCustomer.setPhone("(212)1342345");
         corporateCustomer.setTaxNumber("1234567");
         
-        Customer[] customers={individualCustomer,corporateCustomer};//hiç kızmadı Customer aynı zamanda individual ve corporate olduğu için       
+        Customer[] customers={individualCustomer,corporateCustomer};//hiç kızmadı Customer aynı zamanda individual ve corporate olduğu için     
+        for (Customer customer : customers) {
+
+            System.out.println(customer.getId()+customer.getCustomerNumber());
+            
+        }  
         
        
 
