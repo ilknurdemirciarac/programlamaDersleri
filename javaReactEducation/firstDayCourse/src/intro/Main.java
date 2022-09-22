@@ -24,9 +24,9 @@ public class Main {
         double dolarDun=18.20;
         double dolarBugun=18.10;
 
-        int vade=36;
+//int vade=36;
         
-        boolean dutuMu=false;
+        //boolean dustuMu=false;
 
         if(dolarDun>dolarBugun){
             System.out.println("Dolar Düştü resmini getir");
