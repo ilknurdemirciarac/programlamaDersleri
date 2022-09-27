@@ -26,7 +26,6 @@ public class Main{
     ProductService productService2=new ProductManager(new AbcProductDao(),new JLoggerManagerAdaptor());//test etmek zorundayız
     Product product2=new Product(2,2,"Elma",12.0,50);
     productService2.add(product2);   
-    product.id=1;
-    product.categoryId=1;
+   
     }
 }
