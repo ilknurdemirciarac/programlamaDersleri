@@ -1,25 +1,26 @@
 package kodlamaIo;
 
-import kodlamaI.logging.BaseLogger;
-import kodlamaI.logging.DataBaseLogger;
-import kodlamaI.logging.EmailLogger;
-import kodlamaI.logging.FileLogger;
-import kodlamaIo.business.CourseManager;
+
+
 import kodlamaIo.business.InstructorManager;
-import kodlamaIo.business.UserManager;
+
 import kodlamaIo.dataAccess.HibernateInstructorDao;
-import kodlamaIo.dataAccess.JdbcCourseDao;
+
 import kodlamaIo.entities.Course;
 import kodlamaIo.entities.Instructor;
 import kodlamaIo.entities.Student;
 import kodlamaIo.entities.User;
+import kodlamaIo.logging.BaseLogger;
+import kodlamaIo.logging.DataBaseLogger;
+import kodlamaIo.logging.EmailLogger;
+import kodlamaIo.logging.FileLogger;
 
 public class Main {
     public static void main(String[] args) {
 
         BaseLogger[] loggers={new DataBaseLogger(),new EmailLogger(),new FileLogger()};
 
-        CourseManager courseManager=new CourseManager(new JdbcCourseDao(), loggers);
+       // CourseManager courseManager=new CourseManager(new JdbcCourseDao(), loggers);
 
         
 

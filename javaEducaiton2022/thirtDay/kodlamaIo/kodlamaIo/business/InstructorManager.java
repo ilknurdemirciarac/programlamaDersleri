@@ -1,9 +1,10 @@
 package kodlamaIo.business;
 
 import java.util.ArrayList;
-import kodlamaI.logging.BaseLogger;
+
 import kodlamaIo.dataAccess.InstructorDao;
 import kodlamaIo.entities.Instructor;
+import kodlamaIo.logging.BaseLogger;
 
 public class InstructorManager implements InstructorDao{
 

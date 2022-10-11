@@ -2,9 +2,10 @@ package kodlamaIo.business;
 
 import java.util.ArrayList;
 
-import kodlamaI.logging.BaseLogger;
+
 import kodlamaIo.dataAccess.CourseDao;
 import kodlamaIo.entities.Course;
+import kodlamaIo.logging.BaseLogger;
 
 public class CourseManager {
     private CourseDao courseDao;

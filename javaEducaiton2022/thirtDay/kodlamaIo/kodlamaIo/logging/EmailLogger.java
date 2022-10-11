@@ -1,4 +1,4 @@
-package kodlamaI.logging;
+package kodlamaIo.logging;
 public class EmailLogger implements BaseLogger {
 
     @Override

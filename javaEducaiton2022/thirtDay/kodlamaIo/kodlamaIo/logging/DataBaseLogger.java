@@ -1,5 +1,4 @@
-package kodlamaI.logging;
-
+package kodlamaIo.logging;
 public class DataBaseLogger implements BaseLogger {
 
     @Override
